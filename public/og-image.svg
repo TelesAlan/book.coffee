@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DAD7CD"/>
+      <stop offset="100%" stop-color="#BEAA96"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g>
+    <rect x="80" y="120" width="320" height="320" rx="24" fill="#ffffff" opacity="0.9"/>
+    <rect x="96" y="136" width="288" height="288" rx="20" fill="#DAD7CD"/>
+    <circle cx="240" cy="200" r="10" fill="#443627"/>
+    <rect x="360" y="160" width="120" height="220" rx="12" fill="#443627"/>
+    <text x="80" y="480" font-family="Georgia, 'Libre Baskerville', serif" font-weight="700" font-size="64" fill="#443627">book.coffee</text>
+    <text x="80" y="535" font-family="Inter, system-ui, sans-serif" font-size="28" fill="#443627" opacity="0.9">Café, livros e experiências</text>
+  </g>
+  <g fill="#588157" fill-opacity="0.2">
+    <circle cx="980" cy="160" r="120"/>
+    <circle cx="820" cy="500" r="180"/>
+  </g>
+  <rect x="860" y="420" width="260" height="56" rx="28" fill="#588157"/>
+  <text x="900" y="458" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#ffffff">Quero meu teste grátis</text>
+</svg>
+
+

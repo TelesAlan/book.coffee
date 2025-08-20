@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="book.coffee — Cafeteria com alma de livraria. Café especial, clube de assinatura de livros, eventos literários e experiências sensoriais." />
+    <meta name="theme-color" content="#588157" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="canonical" href="https://book.coffee" />
+    <meta property="og:title" content="book.coffee — Café, livros e experiências" />
+    <meta property="og:description" content="Cafeteria com conceito de livraria. Assine e ganhe 7 dias grátis no clube de leitura." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://book.coffee" />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="book.coffee — Café, livros e experiências" />
+    <meta name="twitter:description" content="Assine e ganhe 7 dias grátis no clube de leitura." />
+    <meta name="twitter:image" content="/og-image.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>book.coffee — Café, livros e experiências</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id="></script> -->
+    <script>
+        // <!-- Global site tag (gtag.js) - Google Analytics -->
+        // window.dataLayer = window.dataLayer || [];
+        // function gtag(){dataLayer.push(arguments);}
+        // gtag('js', new Date());
+
+        // gtag('config', '');
+
+        /**
+         * Inicializa o tradutor de Libras (VLibras) na página web.
+         *
+         * Este método insere e ativa o widget do VLibras para tornar o conteúdo do site acessível
+         * a pessoas surdas usuárias da Língua Brasileira de Sinais.
+         *
+         * Documentação oficial: {@link https://vlibras.gov.br/doc/widget/installation/webpageintegration.html}
+         *
+         * @author Alan Teles
+         * @since 14/06/2025
+         */
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+  </body>
+  </html>
+
+
