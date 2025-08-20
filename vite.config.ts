@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173
-  }
+  },
+  base: process.env.NODE_ENV === 'production' ? '/book_coffee/' : '/'
 })
 
 
